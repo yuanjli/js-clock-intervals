@@ -44,6 +44,22 @@ hourRotation(12); // returns 0
 hourRotation(5); // returns (5 / 12) * 360
 ```
 
+## HINT!
+
+Make sure to use the `setInterval` function to make a ticking function!
+
+```
+setInterval(function(){
+    console.log("TICK!");
+ }, 1000);
+```
+
+The first argument is a callback function - it gets triggered every 1000 milliseconds (1 second), which is the second argument.
+
+```
+setInterval(functionYouWantToRun, millisecondsDelay);
+```
+
 ## Bonus: Show Actual Time
 Use JavaScripts `Date` objects to display the actual
 time.
