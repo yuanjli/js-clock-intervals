@@ -1,14 +1,51 @@
 #clock {
+	border-radius: 50%;
+	background: #fff center;
+	background-size: 88%;
+	height: 20em;
+	padding-bottom: 31%;
+	position: relative;
+	width: 20em;
 }
 
 #clock img {
+
+}
+
+#face {
+
 }
 
 #hour {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: all 0.5s;
 }
 
 #minute {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: all 0.5s;
+
+
 }
 
 #second {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: all 0.5s;
+
 }
+/*
+#myElement {
+	transform: rotate(45deg);
+}*/
